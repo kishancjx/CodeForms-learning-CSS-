@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeForms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <h1 id="CodeForms">CodeForms</h1>
+    <p id="description"><i>"Tell us about you, <b>Coder!!</b>"</i></p>
+
+    
+
+        <form id="survey-form" action="idonthaveawebsite.com">
+        
+        
+        
+            
+        <fieldset id="firstfield">
+            <label id="name-label" for="name">What do people Call you??<input name="name" type="text" id="name" placeholder="Enter your nickname" required></label>
+
+            <label id="email-label" for="email">How Can I contact you?<input type="email" name="emai" id="email" placeholder="Enter your email" required></label>
+
+            <label id="number-label" for="age">How Old are you?<input type="number" name="age" id="age" min="3" max="120" placeholder="Enter your age" required></label>
+        </fieldset>
+
+        <fieldset>
+            <label for="roles">What do you do for living?
+            <select id="roles">
+                <option value="">Select what describes you the best</option>
+                <option value="student">I am a Student 🤓</option>
+                <option value="programmer">I write Code for living 😎</option>
+                <option value="hacker">I hack NASA for living 🥷🏼</option>
+                <option value="jobless">I am jobless 😭</option>
+            </select></label>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>What Operating System do you use?</legend>
+            <label for="windows"><input class="inline" type="radio" name="os-type" id="windows" checked>Windows 🪟</label>
+            <label for="mac"><input class="inline" type="radio" name="os-type" id="mac">Mac🍎</label>
+            <label for="linux"><input class="inline" type="radio" name="os-type" id="linux">Linux👑</label>
+            <label for="bios"><input class="inline" type="radio" name="os-type" id="bios">BIOS💀</label>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>What Projects have you worked on?</legend>
+            <label for="web-dev"><input class="inline" value="web-dev" type="checkbox" name="projects" id="web-dev">Web Development</label>
+            <label for="game-dev"><input class="inline" value="game-dev" type="checkbox" name="projects" id="game-dev">Game Development</label>
+            <label for="cld-cp"><input class="inline" value="cld-cp" type="checkbox" name="projects" id="cld-cp">Cloud Computing</label>
+            <label for="ml"><input class="inline" value="ml" type="checkbox" name="projects" id="ml">Machine Learning</label>
+            <label for="uix"><input class="inline" value="uix" type="checkbox" name="projects" id="uix">UI and UX</label>
+            <label for="cyber"><input class="inline" value="cyber" type="checkbox" name="projects" id="cyber">Cyber Security</label>
+            <label for="other"><input class="inline" value="other" type="checkbox" name="projects" id="other">Other</label>
+        </fieldset>
+
+        <label id="bio-label" for="bio">Tell us More About your self:
+            <textarea id="bio" class="bio" name="bio" rows="6" cols="20" placeholder="I love linux,,,"></textarea>
+        </label>
+
+        <input type="submit" value="Submit" /> 
+        </form>
+    
+    
+</body>
+</html>
